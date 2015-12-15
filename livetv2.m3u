@@ -17,12 +17,6 @@ http://217.20.164.196:8080/sat1/index.m3u8
 #EXTINF:-1, [COLOR gold]RTL[/COLOR]
 http://217.20.164.196:8080/rtl/index.m3u8
 
-#EXTINF:-1,[COLOR gold]RTL2[/COLOR]
-http://webtv-aarh-8.stofa.dk/188_01.m3u8
-
-#EXTINF:-1,[COLOR gold]PRO 7[/COLOR]
-http://vsadmin:neuespasswort@37.221.163.205:9221
-
 #EXTINF:-1, [COLOR gold]VOX[/COLOR]
 http://217.20.164.196:8080/vox/index.m3u8
 
@@ -43,12 +37,6 @@ http://api.iptv.ink/pl.m3u8?ch=66943285
 
 #EXTINF:-1,[COLOR red]--- Kindersender ----[/COLOR]
 http://0.0.0.0:1234
-
-#EXTINF:0, Nickelodeon
-rtmp://$OPT:rtmp-raw=rtmp://cp108478.live.edgefcs.net/live/nick_cc_1_800@45519 swfsize=927444 swfhash=6c1be1765187eae0bc9af07d858fae59a0effd3c5b803d08db261ced2c5512bb live=1
-
-#EXTINF:0, KiKa
-rtmp://$OPT:rtmp-raw=rtmp://cp108476.live.edgefcs.net/live/kika_1_800@45500 swfsize=927444 swfhash=6c1be1765187eae0bc9af07d858fae59a0effd3c5b803d08db261ced2c5512bb live=1
 
 #EXTINF:0023 tvg-id="ric.de" group-title="DE Kindersender" tvg-logo="548620.png", [COLOR gold]RIC[/COLOR]
 http://api.iptv.ink/pl.m3u8?ch=58895342
@@ -140,8 +128,14 @@ rtmp://terra.skykostenlos.com/tv/skysport2de
 #EXTINF:-1, [COLOR gold]Sport 1 HD[/COLOR]
 http://tinyurl.com/q9bthub
 
-#EXTINF:-1, [COLOR gold]SKY Sport HD Austria[/COLOR]
-http://bit.ly/1kYFDlR
+#EXTINF:-1,DE: Sky Bundesliga
+http://x-micky.mickypizza1.com:8000/live/iptv/iptv/631.ts
+#EXTINF:-1,DE: Sky Sport 1
+http://x-micky.mickypizza1.com:8000/live/iptv/iptv/1116.ts
+#EXTINF:-1,DE: Sky Sport 2
+http://x-micky.mickypizza1.com:8000/live/iptv/iptv/630.ts
+#EXTINF:-1,Sky Bundesliga 2 Match Time
+http://x-micky.mickypizza1.com:8000/live/iptv/iptv/903.ts
 
 #EXTINF:-1 group-title="SPORTS",SPORT  SPORT TIME TV 1HQ GERMANY
 rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_800
