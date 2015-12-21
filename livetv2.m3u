@@ -17,11 +17,29 @@ http://217.20.164.196:8080/sat1/index.m3u8
 #EXTINF:-1, [COLOR gold]RTL[/COLOR]
 http://217.20.164.196:8080/rtl/index.m3u8
 
+#EXTINF:-1 tvg-id="RTL2.de" group-title="Deutsch" tvg-logo="0131.png",[COLOR orange]RTL 2 HD[/COLOR]
+http://62.65.140.150:80/session/5eddb80c-a793-11e5-9dcb-005056bc1a52/nvnv5a/1/1024/index.m3u8?token=cb8604294b3cef29952abdca6fb5043b_1450755109_1450755109&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="RTLNitro.de" group-title="Deutsch" tvg-logo="0040.png",[COLOR orange]RTL Nitro HD[/COLOR]
+http://62.65.140.215:80/session/60387444-a793-11e5-a114-005056bc49ac/nvnv5a/1/1027/index.m3u8?token=fc2ab35b28871ee92d033b334cb2e2b2_1450755111_1450755111&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="Pro7.de" group-title="Deutsch" tvg-logo="0128.png",[COLOR orange]Pro7 HD[/COLOR]
+http://62.65.140.216:80/session/590108bc-a793-11e5-9ca1-005056bc06d1/nvnv5a/1/1037/index.m3u8?token=4f3a9acb5586fa54d33e38b5d783face_1450755099_1450755099&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="ProSiebenMaxx.de" group-title="Deutsch" tvg-logo="0051.png",[COLOR orange]Pro7Maxx[/COLOR]
+http://62.65.140.219:80/session/5974694c-a793-11e5-a788-005056bc1a52/nvnv5a/1/1041/index.m3u8?token=44ed64723cdcd2320e80960c201d75c4_1450755100_1450755100&p=127|X-Forwarded-For=85.195.192.0
+
 #EXTINF:-1, [COLOR gold]VOX[/COLOR]
 http://217.20.164.196:8080/vox/index.m3u8
 
 #EXTINF:0, KABEL1
 http://cdn.maiyo-tv.com/stream/kabel1/playlist.m3u
+
+#EXTINF:-1 tvg-id="Sixx.de" group-title="Deutsch" tvg-logo="0133.png",[COLOR orange]sixx HD[/COLOR]
+http://62.65.140.219:80/session/644e50e4-a793-11e5-970c-005056bc49ac/nvnv5a/1/1040/index.m3u8?token=01402e3c88ea59db5f9bd49bde9d4678_1450755118_1450755118&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="DMax.de" group-title="Deutsch" tvg-logo="0052.png",[COLOR orangered]DMAX[/COLOR]
+http://62.65.140.151:80/session/46e31526-a793-11e5-a85b-005056bc1a52/nvnv5a/1/1018/index.m3u8?token=bf98d5b1ea376acd017d23b88624f192_1450755069_1450755069&p=127|X-Forwarded-For=85.195.192.0
 
 #EXTINF:-1,[COLOR red]--- NEWS ----[/COLOR]
 http://0.0.0.0:1234
@@ -37,6 +55,18 @@ http://api.iptv.ink/pl.m3u8?ch=66943285
 
 #EXTINF:-1,[COLOR red]--- Kindersender ----[/COLOR]
 http://0.0.0.0:1234
+
+#EXTINF:-1 tvg-id="SRTL.de" group-title="Deutsch" tvg-logo="0143.png",[COLOR orangered]Super RTL HD[/COLOR]
+http://62.65.140.148:80/session/624de0b6-a793-11e5-808c-005056bc1a52/nvnv5a/1/1023/index.m3u8?token=51035744926234012520707a1d0f9a61_1450755114_1450755114&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="Nick.de" group-title="Deutsch" tvg-logo="0043.png",[COLOR orange]Nickelodeon[/COLOR]
+http://62.65.140.215:80/session/5684a2ec-a793-11e5-b1d6-005056bc06d1/nvnv5a/1/1004/index.m3u8?token=8844e7f71716b7e7b63e59a8c4b360be_1450755095_1450755095&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="Kika.de" group-title="Deutsch" tvg-logo="0047.png",[COLOR orangered]KiKa HD[/COLOR]
+http://62.65.140.153:80/session/5131a466-a793-11e5-b9e8-005056bc06d1/nvnv5a/1/1116/index.m3u8?token=2d371b1905cd00fccdf6b066bb444f94_1450755086_1450755086&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="disneychannel.de" group-title="Deutsch" tvg-logo="0036.png",[COLOR orange]Disney Channel[/COLOR]
+http://62.65.140.213:80/session/466e0c72-a793-11e5-822e-005056bc06d1/nvnv5a/1/1124/index.m3u8?token=8f75987aa501e4162fb2a7c89346349e_1450755068_1450755068&p=127|X-Forwarded-For=85.195.192.0
 
 #EXTINF:0023 tvg-id="ric.de" group-title="DE Kindersender" tvg-logo="548620.png", [COLOR gold]RIC[/COLOR]
 http://api.iptv.ink/pl.m3u8?ch=58895342
@@ -73,6 +103,18 @@ http://0.0.0.0:1234
 #EXTINF:0014 tvg-id="servustv.de" group-title="DE Hauptsender" tvg-logo="506777.png", [COLOR gold]ServusTV HD[/COLOR]
 http://api.iptv.ink/pl.m3u8?ch=91552152
 
+#EXTINF:-1 tvg-id="Tele5.de" group-title="Deutsch" tvg-logo="0041.png",[COLOR orangered]Tele 5[/COLOR]
+http://62.65.140.151:80/session/695f183e-a793-11e5-abca-005056bc49ac/nvnv5a/1/1090/index.m3u8?token=2fd02affafca9c9ae89df12966ed9ae4_1450755126_1450755126&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="Viva.de" group-title="Deutsch" tvg-logo="0044.png",[COLOR orange]VIVA HD[/COLOR]
+http://62.65.140.213:80/session/88f7c39e-a793-11e5-baee-005056bc06d1/nvnv5a/1/1014/index.m3u8?token=42b49832026fc31f32d7d3c518eb03af_1450755179_1450755179&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:0800 tvg-id="noepg.epg" group-title="Music" tvg-logo="vevo.tv.png",[COLOR orangered]VEVO[/COLOR]
+http://vevoplaylist-eu01-live.hls.adaptive.level3.net/vevoeu/ch01/appleman.m3u8
+
+#EXTINF:-1 tvg-id="DeLuxeMusic.de" group-title="Music" tvg-logo="0065.png",[COLOR orangered]Deluxe Music[/COLOR]
+http://62.65.140.216:80/session/45dd45b6-a793-11e5-b76a-005056bc06d1/nvnv5a/1/1153/index.m3u8?token=5d7b5de73f3a8ecc18c36de109f7553e_1450755067_1450755067&p=127|X-Forwarded-For=85.195.192.0
+
 #EXTINF:-1, [COLOR gold]3SAT[/COLOR]
 http://217.20.164.196:8080/3sat/index.m3u8
 
@@ -94,8 +136,11 @@ http://api.iptv.ink/pl.m3u8?ch=72718361
 #EXTINF:0052 tvg-id="family.de" group-title="DE Spartensender" tvg-logo="693134.png", [COLOR gold]Family TV HD[/COLOR]
 http://api.iptv.ink/pl.m3u8?ch=12138379
 
-#EXTINF:0055 tvg-id="zdfneo.de" group-title="DE Spartensender" tvg-logo="698970.png", [COLOR gold]ZDFneo[/COLOR]
-http://api.iptv.ink/pl.m3u8?ch=83251092
+#EXTINF:-1 tvg-id="ZDFneo.de" group-title="Deutsch" tvg-logo="0053.png",[COLOR orangered]ZDF neo HD[/COLOR]
+http://62.65.140.152:80/session/8552f902-a793-11e5-9c78-005056bc49ac/nvnv5a/1/1121/index.m3u8?token=50112d02e399dfeb70fc7b61e4132ece_1450755173_1450755173&p=127|X-Forwarded-For=85.195.192.0
+
+#EXTINF:-1 tvg-id="ZDFtheater.de" group-title="Deutsch" tvg-logo="0055.png",[COLOR orangered]zdf.kultur HD[/COLOR] 
+http://62.65.140.148:80/session/864e2534-a793-11e5-992f-005056bc49ac/nvnv5a/1/1119/index.m3u8?token=8ecef59ea24d823c3692954d8f8a3f4a_1450755175_1450755175&p=127|X-Forwarded-For=85.195.192.0
 
 #EXTINF:0056 tvg-id="zdfkultur.de" group-title="DE Spartensender" tvg-logo="734448.png", [COLOR gold]ZDFkultur[/COLOR]
 http://api.iptv.ink/pl.m3u8?ch=70552908
@@ -128,14 +173,12 @@ rtmp://terra.skykostenlos.com/tv/skysport2de
 #EXTINF:-1, [COLOR gold]Sport 1 HD[/COLOR]
 http://tinyurl.com/q9bthub
 
-#EXTINF:-1,DE: Sky Bundesliga
-http://x-micky.mickypizza1.com:8000/live/iptv/iptv/631.ts
-#EXTINF:-1,DE: Sky Sport 1
-http://x-micky.mickypizza1.com:8000/live/iptv/iptv/1116.ts
-#EXTINF:-1,DE: Sky Sport 2
-http://x-micky.mickypizza1.com:8000/live/iptv/iptv/630.ts
-#EXTINF:-1,Sky Bundesliga 2 Match Time
-http://x-micky.mickypizza1.com:8000/live/iptv/iptv/903.ts
+#EXTINF:-1, [COLOR gold]SKY Sport HD Austria[/COLOR]
+http://bit.ly/1kYFDlR
+
+#EXTINF:-1 tvg-id="Eurosport.de" group-title="Deutsch" tvg-logo="0049.png",[COLOR orangered]EuroSport[/COLOR]
+http://62.65.140.215:80/session/497cb6e8-a793-11e5-9812-005056bc06d1/nvnv5a/1/1051/index.m3u8?token=18934fa4eac0053b69fef4d156c02fc6_1450755073_1450755073&p=127|X-Forwarded-For=85.195.192.0
+
 
 #EXTINF:-1 group-title="SPORTS",SPORT  SPORT TIME TV 1HQ GERMANY
 rtmp://streamer.a1.net:1935/rtmplive/redundant/channels/Sporttime/SporttimeTV/mp4:channel1_800
